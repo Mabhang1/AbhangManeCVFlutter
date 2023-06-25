@@ -20,95 +20,6 @@ class _ExperienceWebState extends State<ExperienceWeb> {
   Widget build(BuildContext context) {
     List<ExperienceModel> experienceList = [
       ExperienceModel(
-          desig: Strings.expDesig3,
-          compName: Strings.expCompName3,
-          duration: Strings.expDur3,
-          points: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: 5.0),
-                      child: Icon(
-                        Icons.arrow_right,
-                        color: AppColors().neonColor,
-                        size: 20,
-                      ),
-                    ),
-                    Container(
-                      width: AppClass().getMqWidth(context) * 0.35,
-                      child: Text(
-                        Strings.expAbout3,
-                        style: TextStyle(
-                            color: AppColors().textLight,
-                            letterSpacing: 1,
-                            height: 1.5,
-                            fontSize: 14,
-                            fontFamily: 'sfmono'),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: 5.0),
-                      child: Icon(
-                        Icons.arrow_right,
-                        color: AppColors().neonColor,
-                        size: 20,
-                      ),
-                    ),
-                    Container(
-                      width: AppClass().getMqWidth(context) * 0.35,
-                      child: Text(
-                        Strings.expAbout3_2,
-                        style: TextStyle(
-                            color: AppColors().textLight,
-                            letterSpacing: 1,
-                            height: 1.5,
-                            fontSize: 14,
-                            fontFamily: 'sfmono'),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: 5.0),
-                      child: Icon(
-                        Icons.arrow_right,
-                        color: AppColors().neonColor,
-                        size: 20,
-                      ),
-                    ),
-                    Container(
-                      width: AppClass().getMqWidth(context) * 0.35,
-                      child: Text(
-                        Strings.expAbout3_3,
-                        style: TextStyle(
-                            color: AppColors().textLight,
-                            letterSpacing: 1,
-                            height: 1.5,
-                            fontSize: 14,
-                            fontFamily: 'sfmono'),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          )),
-      ExperienceModel(
           desig: Strings.expDesig2,
           compName: Strings.expCompName2,
           duration: Strings.expDur2,
@@ -306,7 +217,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                         fontFamily: 'sfmono'),
                     children: <TextSpan>[
                       TextSpan(
-                        text: ''' Where I've Worked''',
+                        text: ''' My Education''',
                         style: GoogleFonts.robotoSlab(
                             color: Colors.white,
                             letterSpacing: 1,
@@ -353,7 +264,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Netaccess',
+                              'Masters',
                               style: TextStyle(
                                   color: data == 0
                                       ? AppColors().neonColor
@@ -382,38 +293,9 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Rax-Tech',
+                              'Bachelors',
                               style: TextStyle(
                                   color: data == 1
-                                      ? AppColors().neonColor
-                                      : AppColors().textLight,
-                                  letterSpacing: 1,
-                                  height: 1.5,
-                                  fontSize: 14,
-                                  fontFamily: 'sfmono'),
-                            ),
-                          ),
-                        ),
-                        InkWell(
-                          onTap: () {
-                            ref.read(selectedExpProvider.notifier).state = 2;
-                          },
-                          child: Container(
-                            padding: EdgeInsets.all(10.0),
-                            decoration: BoxDecoration(
-                                color: data == 2
-                                    ? AppColors().cardColor
-                                    : Colors.transparent,
-                                border: Border(
-                                    left: BorderSide(
-                                        color: data == 2
-                                            ? AppColors().neonColor
-                                            : Colors.white,
-                                        width: 2))),
-                            child: Text(
-                              'Techno Kryon',
-                              style: TextStyle(
-                                  color: data == 2
                                       ? AppColors().neonColor
                                       : AppColors().textLight,
                                   letterSpacing: 1,

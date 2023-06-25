@@ -5,6 +5,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/controller/generalController.dart';
 import 'package:portfolio/resource/appClass.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../resource/colors.dart';
 
@@ -70,11 +71,6 @@ class _WorkWebState extends ConsumerState<WorkTab> {
                 mainAxisCellCount: 1,
                 child: Tile(2),
               ),
-              StaggeredGridTile.count(
-                crossAxisCellCount: 1,
-                mainAxisCellCount: 1,
-                child: Tile(3),
-              ),
             ],
           ),
         ),
@@ -87,27 +83,15 @@ class _WorkWebState extends ConsumerState<WorkTab> {
       onTap: () async {
         switch (index) {
           case 0:
-           // await launchUrl(Uri.parse(AppClass.gitSafeC19));
+           await launchUrl(Uri.parse(AppClass.gitTodo));
             break;
 
           case 1:
-           // AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
+             await launchUrl(Uri.parse(AppClass.gitInstaClone));
             break;
 
           case 2:
-           // await launchUrl(Uri.parse(AppClass.gitWtIot));
-            break;
-
-          case 3:
-           // await launchUrl(Uri.parse(AppClass.gitAutoStabilizer));
-            break;
-
-          case 4:
-           // await launchUrl(Uri.parse(AppClass.gitPAT));
-            break;
-
-          case 5:
-           // AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
+           await launchUrl(Uri.parse(AppClass.gitIMS));
             break;
         }
       },

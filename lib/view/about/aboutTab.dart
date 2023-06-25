@@ -88,18 +88,6 @@ class _AboutTabState extends State<AboutTab> {
                     Padding(
                       padding: const EdgeInsets.only(top: 10.0),
                       child: Text(
-                        Strings.aboutPara3,
-                        style: GoogleFonts.roboto(
-                          color: AppColors().textLight,
-                          letterSpacing: 1,
-                          height: 1.5,
-                          fontSize: 18,
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 10.0),
-                      child: Text(
                         Strings.techIntro,
                         style: GoogleFonts.roboto(
                           color: AppColors().textLight,

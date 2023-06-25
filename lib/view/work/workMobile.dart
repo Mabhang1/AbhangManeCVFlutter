@@ -42,7 +42,7 @@ class _WorkWebState extends ConsumerState<WorkMobile> {
         Padding(
           padding: const EdgeInsets.only(top: 8.0),
           child: Text(
-            'view the archives',
+            'View the archives',
             style: TextStyle(
                 color: AppColors().neonColor,
                 fontSize: 12,
@@ -71,11 +71,6 @@ class _WorkWebState extends ConsumerState<WorkMobile> {
                 mainAxisCellCount: 1,
                 child: Tile(index: 2),
               ),
-              StaggeredGridTile.count(
-                crossAxisCellCount: 1,
-                mainAxisCellCount: 1,
-                child: Tile(index: 3),
-              ),
             ],
           ),
         ),
@@ -88,28 +83,15 @@ class _WorkWebState extends ConsumerState<WorkMobile> {
       onTap: () async {
         switch (index) {
           case 0:
-           // await launchUrl(Uri.parse(AppClass.gitSafeC19));
+           await launchUrl(Uri.parse(AppClass.gitTodo));
             break;
 
           case 1:
-            //AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
+            await launchUrl(Uri.parse(AppClass.gitInstaClone));
             break;
 
           case 2:
-           // await launchUrl(Uri.parse(AppClass.gitWtIot));
-            break;
-
-          case 3:
-           // await launchUrl(Uri.parse(AppClass.gitAutoStabilizer));
-            break;
-
-          case 4:
-            //await launchUrl(Uri.parse(AppClass.gitPAT));
-            break;
-
-          case 5:
-            AppClass().alertDialog(context, 'Not Found',
-                'Sorry the project you requested not found in the repository');
+           await launchUrl(Uri.parse(AppClass.gitIMS));
             break;
         }
       },

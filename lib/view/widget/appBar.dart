@@ -204,7 +204,7 @@ class _ActionBarState extends ConsumerState<ActionBar> {
                             Consumer(builder: (context, ref, child) {
                               String state = ref.watch(hoverProvider);
                               bool isHovered = (state == "expTitle");
-                              return Text("Experience",
+                              return Text("Education",
                                   style: TextStyle(
                                       color: isHovered
                                           ? AppColors().neonColor

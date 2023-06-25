@@ -11,9 +11,7 @@ class Strings {
   static final aboutPara1 =
       '''As a learning developer, I am passionate about creating innovative and engaging learning experiences that empower individuals to reach their full potential. With a background in both education and technology, I strive to blend the best of both worlds to create effective and efficient learning solutions. I am constantly seeking new challenges and opportunities to grow my skills and expertise in the field, and am committed to staying at the forefront of emerging trends and technologies.''';
   static final aboutPara2 =
-      '''Fast-forward to today, and I’ve had the privilege of working for a good organization, a product-based, a huge corporation, and a student-led working atmosphere. My main focus these days is building accessible, inclusive products and digital experiences at Netaccess for a variety of clients.''';
-  static final aboutPara3 =
-      '''I also freelance for various clients across the world. If you've any ideas about creating a project or something, feel free to contact me!''';
+      '''If you've any ideas about creating a project or something, feel free to contact me!''';
 
   static final techIntro =
       '''Here are a few technologies I’ve been working with recently:''';
@@ -23,36 +21,26 @@ class Strings {
   static final tech4 = ''' Swift'''; // space for manual padding
 
   /* Exp screen contents */
-  static final expCompName1 = '''Techno Kryon''';
-  static final expDesig1 = '''Android Developer''';
-  static final expDur1 = '''Nov 2019 - Mar 2020''';
+  static final expCompName1 = '''TCSC''';
+  static final expDesig1 = '''Bachelor Of Science In Computer Science''';
+  static final expDur1 = '''June 2019 - May 2022''';
   static final expAbout1 =
-  '''To kick start my carrier in IT, joined as an Intern to gain knowledge and experience in software industry, Mobile Application Development.''';
+  '''Completed my Bachelors Degree in Computer Science at Thakur College Of Science And Commerce''';
   static final expAbout1_2 =
-  '''Learned and explored native Android architecture models, network calls and core functionality.''';
+  '''Average CGPA 9.49/10''';
   static final expAbout1_3 =
-  '''Has worked on several live projects on different platforms such as e-commerce, ERP, CMS Applications.''';
+  '''Earned The Degree Successfully''';
 
-  static final expCompName2 = '''Rax-Tech International''';
-  static final expDesig2 = '''Mobile App Developer''';
-  static final expDur2 = '''Aug 2020 - Jun 2022''';
+  static final expCompName2 = '''TCSC''';
+  static final expDesig2 = '''Master Of Science In Computer Science''';
+  static final expDur2 = ''' Jun 2022 - Present''';
   static final expAbout2 =
-      '''Worked as a senior mobile app developer and maintained a team of Freshers and interns to provide a hands-on solution.''';
+      '''Currently pursuing the Master's Degree in Computer Science at Thakur College Of Science and Commerce.''';
   static final expAbout2_2 =
-      '''Design and maintenance of the key functions of IoT (Internet of Things), Erp, CMS and innovative applications.''';
+      '''Average CGPA 8.83/10''';
   static final expAbout2_3 =
-      '''Experienced many technologies such as wifi (TCP/UDP), BLE, MQTT, LIVE DATA, Google ML - Tensor Flow, GraphQL and so on.''';
-
-  static final expCompName3 = '''NetAccess India Ltd''';
-  static final expDesig3 = '''Software Engineer''';
-  static final expDur3 = '''Jun 2022 - Present''';
-  static final expAbout3 =
-  '''An entity of India's leading business conglomerate Murugappa Group of companies.''';
-  static final expAbout3_2 =
-  '''Worked with a team of 5 engineers to create field force automation applications, business-to-business applications, etc.''';
-  static final expAbout3_3 =
-  '''Interfacing with customers on a weekly basis, delivering technology expertise.''';
-
+      '''Expected Post Graduation May 2024''';
+      
   /* Contact screen content */
   static final endTxt =
       '''I’m currently looking for new opportunities, but my inbox is always open. Whether you have a question or just want to say Hi, I’ll definitely respond you!''';
