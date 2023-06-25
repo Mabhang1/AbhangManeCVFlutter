@@ -103,7 +103,7 @@ class _ContactTabState extends ConsumerState<ContactTab> {
           Column(
             children: [
               Text(
-                '''Built & Developed by Jeevanandham''',
+                '''Built & Developed by Abhang Mane''',
                 style: TextStyle(
                     color: AppColors().textColor,
                     fontSize: 12,
@@ -112,7 +112,7 @@ class _ContactTabState extends ConsumerState<ContactTab> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  '''ref - Britney C''',
+                  '''Ⓒ 2023''',
                   style: TextStyle(
                       color: AppColors().neonColor,
                       fontSize: 12,

@@ -76,7 +76,7 @@ class _IntroMobileState extends State<IntroMobile> {
                           ),
                           children: <TextSpan>[
                         TextSpan(
-                          text: Strings.currentOrgName,
+                          text: Strings.introAbout,
                           style: GoogleFonts.roboto(
                             color: AppColors().neonColor,
                             letterSpacing: 1,

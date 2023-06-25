@@ -1,16 +1,15 @@
 class Strings {
   /* Intro screen contents */
-  static final welcomeTxt = '''Hi, my name is''';
-  static final name = '''Jeevanandham.'''; // add . at the end
+  static final welcomeTxt = '''Hi, I am''';
+  static final name = '''ABHANG MANE.'''; // add . at the end
   static final whatIdo =
       '''I build things for the mobile/web.'''; // add . at the end
   static final introAbout =
-      '''I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at ''';
-  static final currentOrgName = '''NetAccess.'''; // add . at the end
+      '''Designing and developing seamless solutions by harmonizing creativity and technical expertise.''';// add . at the end
 
   /* About screen contents */
   static final aboutPara1 =
-      '''Hello! Myself Jeeva and I enjoy creating things that live on the internet. My interest in mobile/web development started back in 2019 when I decided to clone some applications — turns my passion into profession.''';
+      '''As a learning developer, I am passionate about creating innovative and engaging learning experiences that empower individuals to reach their full potential. With a background in both education and technology, I strive to blend the best of both worlds to create effective and efficient learning solutions. I am constantly seeking new challenges and opportunities to grow my skills and expertise in the field, and am committed to staying at the forefront of emerging trends and technologies.''';
   static final aboutPara2 =
       '''Fast-forward to today, and I’ve had the privilege of working for a good organization, a product-based, a huge corporation, and a student-led working atmosphere. My main focus these days is building accessible, inclusive products and digital experiences at Netaccess for a variety of clients.''';
   static final aboutPara3 =
@@ -56,6 +55,6 @@ class Strings {
 
   /* Contact screen content */
   static final endTxt =
-      '''Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!''';
+      '''I’m currently looking for new opportunities, but my inbox is always open. Whether you have a question or just want to say Hi, I’ll definitely respond you!''';
 
 }

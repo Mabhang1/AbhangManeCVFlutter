@@ -38,7 +38,7 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                             child: InkWell(
                               onTap: () async {
                                 await launchUrl(
-                                    Uri.parse("https://github.com/jeeva-HBK"));
+                                    Uri.parse("https://github.com/Mabhang1"));
                               },
                               onHover: (bol) {
                                 if (bol) {
@@ -63,7 +63,10 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                           Container(
                             height: AppClass().getMqHeight(context) * 0.07,
                             child: InkWell(
-                              onTap: () {},
+                              onTap: () async {
+                                await launchUrl(Uri.parse(
+                                    "https://instagram.com/abhangg1?igshid=MzNlNGNkZWQ4Mg=="));
+                              },
                               onHover: (bol) {
                                 if (bol) {
                                   ref.read(hoverProvider.notifier).state =
@@ -90,7 +93,7 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                             child: InkWell(
                               onTap: () async {
                                 await launchUrl(Uri.parse(
-                                    "https://www.linkedin.com/in/jeeva-hbk/"));
+                                    "https://www.linkedin.com/in/abhang-mane-55a486129/"));
                               },
                               onHover: (bol) {
                                 if (bol) {
@@ -107,59 +110,6 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                                 child: SvgPicture.asset(
                                     'assets/svg/linkedIn.svg',
                                     color: val == "linkedIn"
-                                        ? AppColors().neonColor
-                                        : AppColors().textColor,
-                                    width: 22),
-                              ),
-                            ),
-                          ),
-                          Container(
-                            height: AppClass().getMqHeight(context) * 0.07,
-                            child: InkWell(
-                              onTap: () {},
-                              onHover: (bol) {
-                                if (bol) {
-                                  ref.read(hoverProvider.notifier).state =
-                                      "twitter";
-                                } else {
-                                  ref.read(hoverProvider.notifier).state = "";
-                                }
-                              },
-                              child: Container(
-                                margin: EdgeInsets.only(
-                                    bottom: val == "twitter" ? 5.0 : 0),
-                                padding: const EdgeInsets.only(bottom: 8.0),
-                                child: SvgPicture.asset(
-                                    'assets/svg/twitter.svg',
-                                    color: val == "twitter"
-                                        ? AppColors().neonColor
-                                        : AppColors().textColor,
-                                    width: 22),
-                              ),
-                            ),
-                          ),
-                          Container(
-                            height: AppClass().getMqHeight(context) * 0.07,
-                            child: InkWell(
-                              onTap: () async {
-                                await launchUrl(Uri.parse(
-                                    "https://stackoverflow.com/users/19705360/mr-jeeva"));
-                              },
-                              onHover: (bol) {
-                                if (bol) {
-                                  ref.read(hoverProvider.notifier).state =
-                                      "stackoverflow";
-                                } else {
-                                  ref.read(hoverProvider.notifier).state = "";
-                                }
-                              },
-                              child: Container(
-                                margin: EdgeInsets.only(
-                                    bottom: val == "stackoverflow" ? 5.0 : 0),
-                                padding: const EdgeInsets.only(bottom: 8.0),
-                                child: SvgPicture.asset(
-                                    'assets/svg/stackoverflow.svg',
-                                    color: val == "stackoverflow"
                                         ? AppColors().neonColor
                                         : AppColors().textColor,
                                     width: 22),

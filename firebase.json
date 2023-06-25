@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "this-is-jeeva",
+    "site": "abhang-mane-cv",
     "public": "build/web",
     "ignore": [
       "firebase.json",

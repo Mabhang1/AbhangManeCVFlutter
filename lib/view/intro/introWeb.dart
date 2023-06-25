@@ -70,27 +70,16 @@ class _IntroWebState extends State<IntroWeb> {
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Container(
                   width: AppClass().getMqWidth(context) * 0.45,
-                  child: RichText(
-                      text: TextSpan(
-                          text: Strings.introAbout,
+                  child: Text(
+                          Strings.introAbout,
                           style: GoogleFonts.roboto(
                             color: AppColors().textLight,
                             letterSpacing: 1,
                             height: 1.5,
                             fontSize: 18,
                           ),
-                          children: <TextSpan>[
-                        TextSpan(
-                          text: Strings.currentOrgName,
-                          style: GoogleFonts.roboto(
-                            color: AppColors().neonColor,
-                            letterSpacing: 1,
-                            height: 1.5,
-                            fontSize: 18,
+                          )
                           ),
-                        )
-                      ])),
-                ),
               ),
               Padding(
                 padding: EdgeInsets.only(top: 50, bottom: 70),
